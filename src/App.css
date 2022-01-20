@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Baloo+2");
+* {
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
+  padding: 5rem;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  font-family: "Baloo 2", "sengoe UI", sans-serif;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+}
+.container {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+.product {
+  padding: 1.7rem 1rem;
+  background-color: #ffff;
+}
+.product video {
+  width: 100%;
+}
+.product_details {
+  display: grid;
+}
+h4 {
+  margin-top: 1.1rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.grid_1_1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1.8rem;
+}
+p {
+  font-size: 1.2rem;
+  color: #888;
+  font-weight: 700;
+}
+.br {
+  border-radius: 6px;
+}
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.95em;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 6px;
+}
+.b-gr {
+  color: #68aa13;
+  background-color: rgba(104, 170, 19, 0.4);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b-pur {
+  color: rgb(108, 8, 117);
+  background-color: rgba(108, 8, 117, 0.4);
 }

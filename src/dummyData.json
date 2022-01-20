@@ -1,0 +1,33 @@
+
+{
+    "products":[
+      {
+        "id":1,
+        "title":"macbook",
+        "price":1200,
+        "videoId":"8ba64b04-f0e6-43af-a6a0-d7815646332b_jdh3ty",
+        "description":"A laptop manufactured by Apple."
+      },
+      {
+        "id":2,
+        "title":"mustang",
+        "price":27000,
+        "videoId":"477be0a5-3a37-4a81-b322-18bebe43fa1a_pypgpu",
+        "description":"A series of American automobiles manufactured by Ford"
+      },
+      {
+        "id":3,
+        "title":"durag",
+        "price":2000,
+        "videoId":"3d983441-017b-49de-b8a0-6496699f1c9c_jickhv",
+        "description":"Silky, or wave cap is a close-fitting cloth cap tied around the top of the head."
+      },
+      {
+        "id":4,
+        "title":"microphone",
+        "price":50,
+        "videoId":"d64fceb6-bfe7-473b-8565-ab8360a4d824_d79xiq",
+        "description":"A microphone is a device that is used to make sounds louder or to record them"
+      }
+    ]
+}
